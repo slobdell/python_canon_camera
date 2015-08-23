@@ -22,7 +22,8 @@ for frame_number in xrange(10):
     # this byte array can easily be integrating into OpenCV or the Python
     # Imaging Library
     numpy_array_jpeg_bytes = camera_manager.grab_frame()
+    print numpy_array_jpeg_bytes
 
 # lastly, take a picture that saves directly to the camera
 print "Taking a picture"
-camera_manager.take_picture()
+print camera_manager.take_picture_and_transfer()

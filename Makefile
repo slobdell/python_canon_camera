@@ -1,10 +1,10 @@
-PYTHON_INCLUDE = /Library/Frameworks/Python.framework/Versions/2.7/include/python2.7
-BOOST_INCLUDE = /usr/local/Cellar/boost/1.55.0/include
-NUMPY_INCLUDE = /usr/local/Cellar/numpy/1.8.0/lib/python2.7/site-packages/numpy/core/include
+PYTHON_INCLUDE = /System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7
+BOOST_INCLUDE = /usr/local/Cellar/boost/1.58.0/include
+NUMPY_INCLUDE = /usr/local/Cellar/numpy/1.9.2_1/lib/python2.7/site-packages/numpy/core/include
 GPHOTO_INCLUDE = /usr/local/Cellar/libgphoto2/2.5.3.1/include
 
 BASE_LIB_DIR = /usr/local/lib
-PYTHON_LIB_DIR = /Library/Frameworks/Python.framework/Versions/2.7/lib/
+PYTHON_LIB_DIR = /System/Library/Frameworks/Python.framework/Versions/2.7/lib/
 
 PYTHON_LIB = python2.7
 BOOST_LIB = boost_python
